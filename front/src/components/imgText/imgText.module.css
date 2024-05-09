@@ -1,0 +1,28 @@
+/* imgTextStyles.css */
+
+.cardsContainer{
+    display: flex;
+}
+
+.imgTextContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%; /* ajusta el ancho según tus necesidades */
+    border: 1px solid #ddd; /* bordes para las "cards" */
+    margin-bottom: 20px; /* espacio entre las "cards" */
+    border-radius: 20px;
+    margin: 50px 30px 0px;
+
+  }
+  
+  .imgTextImage {
+    width: auto;
+    height: 200px;
+  }
+  
+  .imgTextContent {
+    padding: 10px;
+    text-align: justify;
+  }
+  

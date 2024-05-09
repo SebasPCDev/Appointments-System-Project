@@ -1,0 +1,79 @@
+.formRegisterContainer {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+}
+
+.formRegisterContainer div {
+  margin: 5px 0px 25px;
+}
+
+.formRegisterContainer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formRegisterContainer label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formRegisterContainer input[type="text"],
+.formRegisterContainer input[type="email"],
+.formRegisterContainer input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 0px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box; /* Adjusts for padding and border */
+}
+
+.formRegisterContainer input[type="date"] {
+  margin-bottom: 0px;
+}
+
+.formRegisterContainer button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formRegisterContainer button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.formRegisterContainer button:hover {
+  background-color: #0056b3;
+}
+
+.formRegisterContainer button:last-child {
+  margin-top: 0;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+  transition: opacity 800ms ease-in-out;
+  opacity: 1;
+}
+
+.errorMessageHidden {
+  opacity: 0;
+}

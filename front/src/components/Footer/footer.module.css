@@ -1,0 +1,20 @@
+.footer {
+  position: relative;
+
+  width: 100%;
+  background-color: #333; /* Color de fondo del footer */
+  color: #fff; /* Color del texto del footer */
+  padding: 10px 0; /* Espaciado interno del footer */
+  margin-top: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 100px 0px;
+}
+
+.container p {
+  text-align: center;
+  margin-bottom: 0;
+}

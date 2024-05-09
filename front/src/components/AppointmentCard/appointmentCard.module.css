@@ -1,0 +1,33 @@
+.cardContainer {
+  display: flex;
+  background-color: beige;
+  border-radius: 5px;
+  flex-direction: row;
+  margin: 5px 10px 5px;
+  padding: 5px 5px 5px;
+  justify-content: space-evenly;
+  width: auto;
+  span {
+    flex: 0 0 10%;
+  }
+}
+
+.active {
+  color: green;
+}
+
+.cancel {
+  color: red;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.cancelIcon {
+  cursor: pointer;
+}
+
+.statusContainer {
+  pointer-events: none;
+  opacity: 0.5;
+  color: red;
+}

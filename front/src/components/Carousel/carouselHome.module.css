@@ -1,0 +1,5 @@
+.imageCarousel {
+  object-fit: cover;
+  opacity: 0.5;
+  filter: brightness(50%);
+}

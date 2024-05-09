@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  color: #333;
+}
+
+.paragraph {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.list {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.listitem {
+  margin-bottom: 5px;
+}
+
+.list ol {
+  margin-top: 5px;
+}
+
+.inline {
+  display: inline;
+}
+
+/* Estilos específicos para tecnologías */
+.technologies {
+  margin-top: 15px;
+}
+
+.subheading {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.techlist {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.techitem {
+  margin-bottom: 5px;
+}
